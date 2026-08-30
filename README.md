@@ -4,6 +4,8 @@ An interactive data-analysis dashboard built with **Python**, **Pandas**, **Matp
 
 The dashboard reads data from a CSV file, cleans and processes the data, creates interactive Plotly boxplots, displays a median-value pivot table, and allows the processed results to be downloaded as CSV or Excel files.
 
+---
+
 ## Features
 
 - Load data from `Data.csv`
@@ -23,6 +25,8 @@ The dashboard reads data from a CSV file, cleans and processes the data, creates
   - CSV
   - Excel
 - Interactive dashboard accessible through a web browser
+
+---
 
 ## Dashboard Preview
 
@@ -51,20 +55,25 @@ The dashboard contains the following components:
 
 You can add a screenshot to the repository and update this section:
 
+---
+
 ## Screenshot
 
-<img src="Screenshot_2.png" width="400"/>
+<img src="Screenshot_2.png" width="800"/>
 
+---
 
 ## Project Structure
-
+```
 .
 ├── Dashboard.py
 ├── Data.csv
 ├── README.md
 └── assets/
     └── dashboard_screenshot.png
+```
 
+---
 
 ## Requirements
 
