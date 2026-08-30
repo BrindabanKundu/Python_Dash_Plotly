@@ -59,7 +59,7 @@ You can add a screenshot to the repository and update this section:
 
 ## Screenshot
 
-<img src="Screenshot_2.png" width="800"/>
+<img src="dashboard_screenshot.png" width="800"/>
 
 ---
 
