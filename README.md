@@ -51,8 +51,10 @@ The dashboard contains the following components:
 
 You can add a screenshot to the repository and update this section:
 
-```markdown
-![Dashboard Preview](assets/dashboard_screenshot.png)
+## Screenshot
+
+<img src="Screenshot_2.png" width="400"/>
+
 
 ## Project Structure
 
