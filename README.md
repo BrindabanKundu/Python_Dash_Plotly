@@ -134,6 +134,13 @@ If the application is running on another computer or server, use:
 ```text
 http://<server-ip-address>:8050/
 ```
+
+#### How to kill a used `port`
+```bash
+lsof -i:8050
+kill -9 <<PID>>
+```
+
 ---
 
 ## Using the Dashboard

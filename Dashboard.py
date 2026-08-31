@@ -2,6 +2,7 @@
 ### The Plotly Dash Implementation
 #### Visit http://127.0.0.1:8050/ in your web browser
 
+
 import dash
 from dash import dcc, html, dash_table, Input, Output, State
 import numpy as np
@@ -50,7 +51,7 @@ def get_cleaned_joined_data(selected_experiment):
     # 2. Separate into Parameters and Values
     ####################################################################
     # Getting 'Parameters' and 'Values' from the df_filt
-    df_Parameters =  df_filtered.loc[:, 'Set':'Parameter_9']
+    df_Parameters =  df_filtered.loc[:, 'Set':'Parameter_10']
     df_Values = df_filtered.loc[:, 'Mval_01.1':'Remarks']
     
     # Convert all to strings and fill empty cells with an empty string "" 
